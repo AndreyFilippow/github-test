@@ -1,0 +1,110 @@
+body{
+	background: #F2F1EF;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.main{
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.top-menu{
+	width: 80%;
+	overflow: hidden;
+	margin:0 auto; 
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #DADFE1;
+	padding-left: 12%; 
+
+}
+
+
+.logo{
+	width: 20%;
+	float: left;
+	font-size: 180%;
+	color: #373737;
+	margin-top:0;
+	position: relative;
+	bottom: 11px;
+
+}
+.logo span{
+	color: #3FC380;
+	font-size: 130%;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 5px 15px;
+	color: #373737;
+	border: 1px solid #373737;
+	margin-right: 15px;
+	transition: color 0.5s, background 0.5s;
+
+}
+.menu ul li a:hover{
+	background: #3FC380;
+	color: aliceblue;
+}
+.news{
+	width: 100%;
+
+}
+.block{
+	margin-bottom: 10px;
+	padding-left: 15px;
+	border-left: 5px solid #3FC380;
+
+}
+.name{
+	font-size: 140%;
+	margin-left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #DADFE1;
+	display: inline-block;
+	padding:0 15px 5px 15px;
+
+}
+.text{
+	margin: 5px;
+	color: #474747;
+	font-style: italic;
+
+}
+.href,.date{
+	overflow: hidden;
+
+
+}
+.date{
+	float: left;
+	margin-left: 5px;
+	border-bottom: 2px dashed #aaa; 
+	color: #aaa;
+}
+.href a{
+	float: right;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid #3FC380;
+	border-left: 4px solid #3FC380;
+	border-right:4px solid #3FC380;
+	color:  #474747;
+	font-style: italic;
+}
